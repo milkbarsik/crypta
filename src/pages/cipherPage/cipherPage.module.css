@@ -1,0 +1,48 @@
+.wrapper {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px #646cff solid;
+	border-radius: 8px;
+	padding: 5rem 3rem;
+	gap: 5rem;
+}
+
+.name {
+	font-size: 3rem;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+.changeType {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.inputBlock {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.result {
+	border-radius: 8px;
+	padding: 1rem;
+	background-color: #1a1a1a;
+	cursor: pointer;
+	transition: 0.2s;
+}

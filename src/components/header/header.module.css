@@ -1,0 +1,10 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	padding: 1rem 3rem 3rem 1rem;
+	width: 100%;
+}
+
+.wrapper p:last-child {
+	margin-left: auto;
+}
